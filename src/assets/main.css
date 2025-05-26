@@ -1,0 +1,12 @@
+@import "tailwindcss" important;
+@theme {
+    --color-midnight: #121063;
+    --color-tahiti: #3ab7bf;
+    --color-bermuda: #78dcca;
+    --color-primary: #071739;
+    --color-secondary: #CDD5DB;}
+
+:root {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
