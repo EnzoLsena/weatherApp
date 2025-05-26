@@ -7,8 +7,6 @@ import navBar from './navBar.vue'
         <navBar />
     </header>
     <main class="w-full h-full bg-secondary">
-        <div class="container mx-auto p-4">
             <RouterView />
-        </div>
     </main>
 </template>
