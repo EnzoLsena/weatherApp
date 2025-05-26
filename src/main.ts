@@ -10,9 +10,12 @@ import Aura from '@primeuix/themes/aura';
 
 const app = createApp(App)
 app.use(PrimeVue, {
-    theme: {
-        preset: Aura
+theme: {
+    preset: Aura,
+    options: {
+        darkModeSelector: false || 'none',
     }
+}
 });
 app.use(createPinia())
 app.use(router)
