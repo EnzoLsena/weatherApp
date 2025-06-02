@@ -6,7 +6,7 @@ import navBar from './navBar.vue'
     <header>
         <navBar />
     </header>
-    <main class="w-full h-full bg-secondary">
-            <RouterView />
+    <main class="w-full h-217 overflow-y-hidden">
+        <RouterView />
     </main>
 </template>

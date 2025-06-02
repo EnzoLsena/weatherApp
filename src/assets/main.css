@@ -4,7 +4,10 @@
     --color-tahiti: #3ab7bf;
     --color-bermuda: #78dcca;
     --color-primary: #071739;
-    --color-secondary: #CDD5DB;}
+    --color-secondary: #CDD5DB;
+    --color-person: #4B6382
+
+}
 
 :root {
     font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
