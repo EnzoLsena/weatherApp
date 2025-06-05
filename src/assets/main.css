@@ -1,6 +1,7 @@
+@import 'primeicons/primeicons.css';
 @import "tailwindcss" important;
 @theme {
-    --color-midnight: #121063;
+    --color-midnight: #01356d;
     --color-tahiti: #3ab7bf;
     --color-bermuda: #78dcca;
     --color-primary: #071739;
