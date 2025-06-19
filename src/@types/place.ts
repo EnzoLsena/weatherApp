@@ -4,5 +4,6 @@ export type Place = {
     temp: 0,
     humidity: '',
     pressure: '',
-    weather:{}
+    weather: {},
+    description:{}
 }
