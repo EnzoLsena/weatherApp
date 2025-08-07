@@ -10,6 +10,8 @@ declare module 'vue' {
   export interface GlobalComponents {
     Button: typeof import('primevue/button')['default']
     Card: typeof import('primevue/card')['default']
+    CardCity: typeof import('./src/components/card-city/CardCity.vue')['default']
+    Header: typeof import('./src/components/header/Header.vue')['default']
     Layout: typeof import('./src/components/layout.vue')['default']
     NavBar: typeof import('./src/components/navBar.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
