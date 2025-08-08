@@ -1,18 +1,30 @@
-# vite-project
+🌤️ Weather App – Vue 3 + Vite + PrimeVue + Tailwind
 
-This template should help get you started developing with Vue 3 in Vite.
+Este projeto é uma aplicação frontend desenvolvida com Vue 3, utilizando o Vite como bundler moderno, PrimeVue como biblioteca de componentes UI e Tailwind CSS para estilização. O objetivo do projeto é fornecer informações meteorológicas em tempo real de maneira responsiva e amigável.
 
-## Recommended IDE Setup
+⸻
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+🛠️ Tecnologias Utilizadas
+	•	⚡ Vite – Bundler rápido para desenvolvimento moderno.
+	•	🖼️ Vue 3 – Framework progressivo para construção de interfaces.
+	•	🎨 PrimeVue – Biblioteca rica de componentes UI.
+	•	💨 Tailwind CSS – Framework utilitário para CSS.
+	•	🧠 TypeScript – Tipagem estática opcional.
+	•	☁️ (Opcional) Integração com APIs de clima como OpenWeatherMap.
 
-## Type Support for `.vue` Imports in TS
+⸻
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+💻 Requisitos Recomendados
+	•	Node.js (versão 16+)
+	•	VSCode com a extensão Volar
+⚠️ Recomenda-se desabilitar a extensão Vetur ao usar Volar.
 
-## Customize configuration
+⸻
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+🧩 Suporte a Tipagem .vue no TypeScript
+
+O TypeScript não oferece suporte nativo completo a arquivos .vue, então utilizamos vue-tsc para verificação de tipo. No editor, o plugin Volar ativa o suporte completo à linguagem Vue 3.
+
 
 ## Project Setup
 
